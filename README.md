@@ -11,7 +11,7 @@ Welcome to the **Password Generator App**! This React application is designed to
 
 ## Demo 🎥
 
-Check out the live app here: [Password Generator App on GitHub Pages](https://deepakpatil26.github.io/password_generator)
+Check out the live app here: [Password Generator App](https://deepakpatil26.github.io/password_generator)
 
 ![Password Generator Demo](src/assets/password_generator.gif)
 
