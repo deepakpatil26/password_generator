@@ -1,0 +1,174 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 350px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-output {
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.password_length {
+  text-align: center;
+  border-radius: 5px;
+  width: 5%;
+}
+
+.copy-button {
+  position: absolute;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+
+.label {
+  font-size: 15px;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.checkbox-container {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.checkbox-container label {
+  font-size: 16px;
+  color: #555;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.copy-button {
+  position: absolute;
+  right: 10px;
+  padding: 5px;
+  top: 2%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+
+.copy-button svg {
+  font-size: 16px;
+}
+
+.notification {
+  position: fixed;
+  top: 20px; /* Position from the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for its own width */
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+.notification.show {
+  opacity: 1; /* Show the notification */
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%; /* Responsive for smaller screens */
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .password-output {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
