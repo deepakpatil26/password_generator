@@ -11,24 +11,37 @@ Welcome to the **Password Generator App**! This React application is designed to
 
 ## Demo 🎥
 
+Check out the live app here: [Password Generator App on GitHub Pages](https://deepakpatil26.github.io/react_calculator)
+
 ![Password Generator Demo](src/assets/password_generator.gif)
 
 ## Installation 🚀
 
+- To run this app locally, follow these steps:
+
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone https://github.com/deepakpatil26/react_calculator.git
-   ```
+```
 
 2. Navigate to the project directory:
+
+```bash
    cd react_calculator
+```
 
 3. Install dependencies:
+
+```bash
    npm install
+```
 
 4. Start the application:
+
+```bash
    npm start
+```
 
 Usage 💻
 
